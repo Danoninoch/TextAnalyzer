@@ -1,0 +1,163 @@
+*{
+  margin:2px;
+  padding: 0;
+  box-sizing: border-box ;
+ 
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  background-repeat: no-repeat;
+  min-height: 40vh;
+  position: relative;
+  height: 100px;
+  background-color: rgb(244, 143, 42);
+}
+
+
+.onclick {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #271c1c;
+  text-shadow: 1px 1px 1px #000;
+  background-color: transparent;
+}
+
+h1{
+  text-align: center;
+  color: rgb(52, 41, 15);
+  font-size: 70px;
+  font: 'bold';
+  position: absolute;
+  left: 50%;
+  top: 65%;
+  transform: translateX(-40%) translateY(-50%);
+  height: 100px;
+
+}
+
+
+
+
+label,
+ textarea {
+   font-size: 0.9rem;
+   padding: 35px;
+   width: 50%;
+   left: -2%;
+   top: 40%;
+   background: transparent;
+   height: 100px;
+   position: relative;
+   
+
+   
+
+
+}
+
+label,
+ for{
+  font-size: 25px;
+  position: relative;
+  left: 2%;
+  width: 15%;
+  right: 10%;
+  color: rgb(247, 242, 242);
+}
+
+.a{
+  width: 20px;
+  color: #fff;
+  position: absolute;
+  font-size: 25px;
+  left: 35%;
+  top: 110%;
+  width: 15%;
+
+}
+
+.b{
+  width: 20px;
+  color: #fff;
+  position: absolute;
+  font-size: 25px;
+  left:35%;
+  top: 120%;
+  width: 15%;
+  
+}
+
+.c{
+  width: 20px;
+  color: #fff;
+  position: absolute;
+  font-size: 25px;
+  left:35%;
+  top: 130%;
+  width: 15%;
+}
+
+.d{
+  width: 20px;
+  color: #fff;
+  position: absolute;
+  font-size: 25px;
+  left:60%;
+  top: 110%;
+  width: 15%;
+}
+
+.e{
+  width: 20px;
+  color: #fff;
+  position: absolute;
+  font-size: 25px;
+  left:60%;
+  top: 120%;
+  width: 15%;
+}
+
+.f{
+  width: 20px;
+  color: #fff;
+  position: absolute;
+  font-size: 25px;
+  left:60%;
+  top: 130%;
+  width: 15%;
+}
+
+footer {
+  display: center;
+  justify-content: end;
+  padding: 5px;
+  background: transparent ;
+  position: absolute;
+  left:80%;
+  top: 220%;
+  color:rgb(52, 41, 15)
+  
+}
+
+#reset-button{
+  border: 0;
+  line-height: 2;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #eee4e4;
+  text-shadow: 1px 1px 1px #524f4f;
+  border-radius: 10px;
+  background-color: rgb(145, 66, 66);
+  position: absolute;
+  left:75%;
+  top: 102%;
+}
